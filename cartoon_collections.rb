@@ -22,9 +22,11 @@ def find_the_cheese(array)
     a = array.find{|n| n == "cheddar"}
     return a 
   elsif array.include?(cheese_types[1])
-  
+   a = array.find{|n| n == "gouda"}
+    return a
   elsif array.include?(cheese_types[2])
-  
+   a = array.find{|n| n == "camembert"}
+    return a
 else 
   return nil 
 end 
